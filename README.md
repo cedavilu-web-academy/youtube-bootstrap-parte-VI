@@ -7,7 +7,7 @@
   <li>Abrir en Visual Studio Code la carpeta del proyecto</li>
 </ol>
 
-Listo ya tienes la carpeta con todo el código para que puedas seguir el vídeo de una forma mas facil.
+Listo ya tienes la carpeta con todo el código trabajado en el video, la idea es que lo puedas comparar con el tuyo y sobre todo efectuar todos los ajustes o cambios que desees.
 <h2 style="text-align:center">Si quieres ir desde 0 a 100 en el <strong>Desarrollo Web FullStack</strong> - (Front-End y Back-End): Aquí te dejo una ruta que te prepare:</h2>
 <table>
   <tr>
