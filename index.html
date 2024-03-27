@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Restaurante</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Más que un restaurante, una experiencia.</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                        aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Restaurante</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Reservas</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Menú
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li><a class="dropdown-item" href="#">Entradas</a></li>
+                                        <li><a class="dropdown-item" href="#">Platos principales</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Postres</a></li>
+                                        <li><a class="dropdown-item" href="#">Bebidas</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <button id="dark-mode-toggle" class="btn btn-outline-light"><i
+                                    class="bi bi-moon"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/banner1.jpg" class="d-block w-100" alt="Restaurante">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/banner2.jpg" class="d-block w-100" alt="Restaurante">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/banner3.jpg" class="d-block w-100" alt="Restaurante">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+        <section class="my-5 p-0">
+            <h1>Bienvenido a nuestro restaurante</h1>
+            <p>¡Disfruta de la mejor comida en un ambiente acogedor!</p>
+        </section>
+        <section class="container p-0">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-3 shadow" >
+                    <img src="./img/plato1.jpg" class="card-img-top" alt="Plato 1">
+                    <div class="card card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn btn-warning d-block">Ver más</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <img src="./img/plato2.jpg" class="card-img-top" alt="Plato 2">
+                    <div class="card card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn btn-warning d-block">Ver más</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <img src="./img/plato3.jpg" class="card-img-top" alt="Plato 3">
+                    <div class="card card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn btn-warning d-block">Ver más</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <img src="./img/plato4.jpg" class="card-img-top" alt="Plato 4">
+                    <div class="card card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn btn-warning d-block">Ver más</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <img src="./img/plato5.jpg" class="card-img-top" alt="Plato 5">
+                    <div class="card card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn btn-warning d-block">Ver más</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <img src="./img/plato6.jpg" class="card-img-top" alt="Plato 6">
+                    <div class="card card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                        <a href="#" class="btn btn-warning d-block">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container my-5 p-0 cocteles">
+            <h2 class="subtitulo">Nuestros Cocteles</h2>
+            <img class="w-100" src="./img/cocteles.jpg" alt="Cocteles">
+        </section>
+        <section class="container p-0">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img class="card w-100" src="./img/coctel1.jpg" alt="Cóctel">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img class="card w-100" src="./img/coctel2.jpg" alt="Cóctel">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img class="card w-100" src="./img/coctel3.jpg" alt="Cóctel">
+                </div>    
+            </div>
+        </section>
+        <section class="container my-5 p-0">
+            <h2>Nuestros Chef</h2>
+        </section>
+        <section class="container p-0">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img class="w-100 card" src="./img/chef1.jpg" alt="Chef">
+                </div>
+                <div class="col-12 col-md-6">
+                    <img class="w-100 card" src="./img/chef2.jpg" alt="Chef">
+                </div>
+            </div>
+        </section>
+        <footer class="container my-5 p-0 d-flex justify-content-around w-25">
+            <a href="#" target="_blank"><i style="font-size: 2rem" class="bi bi-instagram"></i></a>
+            <a href="#" target="_blank"><i style="font-size: 2rem" class="bi bi-facebook"></i></a>
+            <a href="#" target="_blank"><i style="font-size: 2rem" class="bi bi-youtube"></i></a>
+            <a href="#" target="_blank"><i style="font-size: 2rem" class="bi bi-twitter-x"></i></a>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+.slide img{
+    max-height: 100vh;
+    object-fit: cover;
+}
+.cocteles{
+    position: relative;
+}
+.subtitulo{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: yellow;
+}
+
+/*== Modo oscuro==*/
+.dark-mode{
+    background-color: #343a40;
+    color: #ffffff;
+}
+.dark-mode .card, .dark-mode .shadow{
+    background-color: grey;
+    box-shadow: 0 0 20px white;
+}
+
+.dark-mode .btn{
+    background-color: black;
+    border: none;
+    color: white;
+    transition: all .5s ease;
+}
+.dark-mode .btn:hover{
+    box-shadow: 0 0 10px white;
+    color: yellow;
+    transform: scale(1.1);
+}
+.dark-mode a i{
+    color: white;
+    transition: all .5s ease;
+}
+.dark-mode a:hover i{
+    color: yellow;
+}
+
+@media (min-width: 576px){
+    .subtitulo{
+        top: 40px;
+        left: 120px;
+        font-size: 4rem;
+    }   
+}
+
+@media (min-width: 992px){
+    .subtitulo{
+        top: 50px;
+        left: 200px;
+        font-size: 6rem;
+    }   
+}
